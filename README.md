@@ -25,17 +25,11 @@ Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**,
 ## 🧮 Formulas DAX utilizadas
 
 - Para calcular el ingreso de stock
-- 
-**" MAX_Entrada =
-    SUMX(
-        FILTER(
-              'Movimientos de productos',
-              'Movimientos de productos'[Entrada/Salida/Inventario.1]="Entrada"
-        ),
-        'Movimientos de productos'[Realizado]) "**
+  
+**" MAX_Entrada =SUMX(FILTER('Movimientos de productos','Movimientos de productos'[Entrada/Salida/Inventario.1]="Entrada"),'Movimientos de productos'[Realizado]) "**
   
 - Para calcular las salidas de stock
-- 
+  
 **"MAX_Salida =
    SUMX(
         FILTER(
