@@ -1,4 +1,4 @@
-# 📊 Dashboard de Costos y Proyectos
+# 📊 Dashboard de Control de stock y Movimientos
 
 Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**, se realizo con el objetivo de analizar:
 - Datos históricos de materiales.
